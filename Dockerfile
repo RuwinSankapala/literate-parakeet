@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM anasty17/mltb:latest
 
 RUN apt update && apt upgrade -y
 COPY start /start
