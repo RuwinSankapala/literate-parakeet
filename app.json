@@ -2,17 +2,10 @@
     "env": {
         "CONFIG_FILE_URL": {
             "required": true
+        },
+        "BASE_URL_OF_BOT": {
+            "required": true
         }
     },
-    "stack": "container",
-    "buildpacks": [{
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "web": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    "stack": "container"
 }
