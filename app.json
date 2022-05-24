@@ -1,4 +1,9 @@
 {
+    "env": {
+        "CONFIG_FILE_URL": {
+            "required": true
+        }
+    },
     "stack": "container",
     "buildpacks": [{
             "url": "heroku/python"
