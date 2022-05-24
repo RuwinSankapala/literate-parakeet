@@ -5,5 +5,5 @@ apt install git -y
 pip3 install -U pip
 git clone https://github.com/RuwinSankapala/solid-adventure solid-adventure
 cd solid-adventure
-pip3 install --no-cache-dir -r requirements.txt
+pip3 install -U -r requirements.txt
 python3 -m bot
